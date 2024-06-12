@@ -1,0 +1,66 @@
+body.bg-dark {
+    background-color: #1A1A24 !important;
+}
+
+.bg-grey {
+    background-color: #40404A;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
+
+
+.app-title {
+    margin-bottom: 1rem;
+}
+
+.btn-warning {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    color: #000;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.email-input-group {
+}
+
+.form-control {
+    padding: .5rem .75rem;
+}
+
+.section-box {
+    border: 1px solid #f8f9fa;
+    padding: 2rem;
+    border-radius: 0.4rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mail-section {
+    margin-bottom: 20px;
+}
+
+.result-section {
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+
