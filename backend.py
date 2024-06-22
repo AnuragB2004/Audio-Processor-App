@@ -232,8 +232,8 @@ def summarize_sentiment(text):
             text = text.replace('•', '  *')
             return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
-        GOOGLE_API_KEY = os.getenv('AIzaSyDg2aslIbqASRApA99owC8Kyr78sIMDo58')
-        genai.configure(api_key='AIzaSyDg2aslIbqASRApA99owC8Kyr78sIMDo58')
+        GOOGLE_API_KEY = ('GEMINI_API_KEY')
+        genai.configure(api_key='GEMINI_API_KEY')
         generation_config = {"temperature": 0.1, "top_p": 1, "top_k": 1, "max_output_tokens": 2048}
 
         model = genai.GenerativeModel('gemini-pro', generation_config=generation_config)
